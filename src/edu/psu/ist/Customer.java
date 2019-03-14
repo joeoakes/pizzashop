@@ -9,6 +9,9 @@ public class Customer {
         this.customerId = _customerId;
     }
 
+    public Customer(){
+    }
+
     //Setters and Getters
     public int getcustomerId() { return customerId; }
     public void setcustomerId(int _customerId) {this.customerId = _customerId;}
