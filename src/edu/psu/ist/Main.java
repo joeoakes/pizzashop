@@ -32,7 +32,7 @@ public class Main {
         Customer cust1 = new Customer(1, "Joe Oakes", "215-888-7273");
         Customer cust2 = new Customer(2, "Jim Oakes", "215-888-7777");
         Order order1 = new Order(1);
-        Transaction trans1 = new Transaction(1);
+        Transaction trans1 = new Transaction(1, order1, PaymentType.cash);
 
         Menu menu1 = new Menu(1, "Plain");
         Menu menu2 = new Menu(2, "Meat");
@@ -58,7 +58,7 @@ public class Main {
                     break;
                 case ORDE_CODE : //addOrders();
                     break;
-                case TRAN_CODE : //listTransactions();
+                case TRAN_CODE : Transaction.listTransactions(tList);
                     break;
             }
 
