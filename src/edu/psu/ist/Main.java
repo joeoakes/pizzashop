@@ -29,7 +29,8 @@ public class Main {
         ArrayList<Order> oList = new ArrayList<>();
         ArrayList<Transaction> tList = new ArrayList<>();
 
-        Customer cust1 = new Customer(1);
+        Customer cust1 = new Customer(1, "Joe Oakes", "215-888-7273");
+        Customer cust2 = new Customer(2, "Jim Oakes", "215-888-7777");
         Order order1 = new Order(1);
         Transaction trans1 = new Transaction(1);
 
