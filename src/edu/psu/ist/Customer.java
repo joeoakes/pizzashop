@@ -17,7 +17,7 @@ public class Customer {
     }
 
     public Customer() {
-        customerId++;
+        customerId++;  //Increments the ID count
     }
 
         //Setters and Getters
