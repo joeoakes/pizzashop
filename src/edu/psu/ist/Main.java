@@ -67,6 +67,7 @@ public class Main {
             userAction = getAction(PROMPT_ACTION);
         }
     }
+
     public static char getAction(String prompt) {
         Scanner scnr = new Scanner(System.in);
         String answer = "";
