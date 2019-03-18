@@ -48,13 +48,10 @@ public class Main {
         mList.add(menu3);
         mList.add(menu4);
 
-        //cList.add(cust1);
         oList.add(order1);
         tList.add(trans1);
 
         userAction = getAction(PROMPT_ACTION);
-
-        //Customer cust1 = new Customer();
 
         while (userAction != EXIT_CODE) {
             switch(userAction) {
