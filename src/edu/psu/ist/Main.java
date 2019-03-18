@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-
+    int cCount = 1;
     public static void main(String[] args) {
 
         Main main = new Main();
@@ -77,7 +77,7 @@ public class Main {
     }
 
     public Customer addCustomer(){
-        Customer cust = new Customer();
+        Customer cust = new Customer(cCount++);
         Scanner scnr = new Scanner(System.in);
         System.out.println("Please Enter your Name: ");
         cust.setCustomerName(scnr.nextLine());

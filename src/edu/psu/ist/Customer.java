@@ -5,19 +5,13 @@ import java.util.Scanner;
 
 public class Customer {
     //Class Level Variables - Protect the data
-    private int customerId = 0;
+    private int customerId;
     private String customerName;
     private String customerPhoneNumber;
 
-    //Constructor Methods
-    public Customer(String _customerName, String _customerPhoneNumber){
-        customerId++;
-        this.customerName = _customerName;
-        this.customerPhoneNumber = _customerPhoneNumber;
-    }
-
-    public Customer() {
-        customerId++;  //Increments the ID count
+    //Constructor Method
+    public Customer(int _customerId) {
+        this. customerId = _customerId;  //Increments the ID count
     }
 
         //Setters and Getters
